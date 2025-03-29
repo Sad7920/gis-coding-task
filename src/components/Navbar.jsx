@@ -14,7 +14,7 @@ const Navbar = () => {
                         <a href='#how-it-works' className='hover:opacity-80'>How it Works</a>
                         <a href='#support' className='hover:opacity-80'>Support</a>
                     </div>
-                    <Button text="Download App" className="h-10" />
+                    <Button key={1} text="Download App" className="text-sm h-10 " />
                 </div>
             </div>
         </nav>

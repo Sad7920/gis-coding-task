@@ -38,3 +38,8 @@ body {
                     linear-gradient(90deg, #202020 1px, transparent 1px);
   background-size: 50px 50px;
 }
+
+.text-gradient {
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
