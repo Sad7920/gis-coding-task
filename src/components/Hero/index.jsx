@@ -1,15 +1,15 @@
 import { Star } from "lucide-react"
 import Image from "next/image"
-import Button from "./Button"
-import MockupCarousel from "./MockupCarousel"
-import profilePic1 from '../../public/profile-pic1.jpeg'
-import profilePic2 from '../../public/profile-pic2.jpg'
-import profilePic3 from '../../public/profile-pic3.jpg'
-import apple from "../../public/apple-logo.png"
+import Button from "../Button"
+import MockupCarousel from "../MockupCarousel"
+import profilePic1 from '../../../public/profile-pic1.jpeg'
+import profilePic2 from '../../../public/profile-pic2.jpg'
+import profilePic3 from '../../../public/profile-pic3.jpg'
+import apple from "../../../public/apple-logo.png"
 
 
 
-const Hero = () => {
+const Index = () => {
     return (
         <section className="h-screen w-full hero-bg-gradient relative -z-20">
             <div className="absolute h-screen inset-0 bg-gradient-to-b from-transparent via-background -z-10 to-background pointer-events-none" />
@@ -61,4 +61,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Index

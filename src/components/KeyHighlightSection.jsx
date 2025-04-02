@@ -27,7 +27,7 @@ const KeyHighlightSection = () => {
     return (
         <div
             ref={containerRef}
-            className="px-6 py-4 my-10 w-full bg-secondary overflow-hidden text-background items-center 
+            className="px-6 py-4 mt-10 w-full bg-secondary overflow-hidden text-background items-center 
             flex gap-12 scrollbar-hide
             lg:justify-around lg:overflow-visible lg:max-w-full"
         >
