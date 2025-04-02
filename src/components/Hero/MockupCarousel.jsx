@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import ss1 from '../../public/ss1.png'
-import ss2 from '../../public/ss2.png'
-import ss3 from '../../public/ss3.png'
+import ss1 from '../../../public/ss1.png'
+import ss2 from '../../../public/ss2.png'
+import ss3 from '../../../public/ss3.png'
 
 
 

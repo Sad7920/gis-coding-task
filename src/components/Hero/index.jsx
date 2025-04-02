@@ -1,7 +1,7 @@
 import { Star } from "lucide-react"
 import Image from "next/image"
 import Button from "../Button"
-import MockupCarousel from "../MockupCarousel"
+import MockupCarousel from "../Hero/MockupCarousel"
 import profilePic1 from '../../../public/profile-pic1.jpeg'
 import profilePic2 from '../../../public/profile-pic2.jpg'
 import profilePic3 from '../../../public/profile-pic3.jpg'
