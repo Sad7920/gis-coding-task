@@ -1,9 +1,5 @@
 import React from "react";
-
-const dailySummaryData = [
-    { label: "Best Day", value: "+£65", positive: true },
-    { label: "Worst Day", value: "-£20", negative: true },
-];
+import { dailySummaryData } from "../../../constants";
 
 const DailySummary = () => {
     return (

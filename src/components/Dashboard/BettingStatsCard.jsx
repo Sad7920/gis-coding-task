@@ -1,17 +1,5 @@
 import React from 'react';
-
-const bettingStats = [
-    { label: 'Total Bets', value: '47' },
-    { label: 'Win Rate', value: '15.7%' },
-    { label: 'Biggest Win', value: '£145.50', positive: true },
-    { label: 'Biggest Loss', value: '-£50.00', negative: true },
-];
-
-const sportDistribution = [
-    { sport: 'Football', percentage: '45%' },
-    { sport: 'Basketball', percentage: '30%' },
-    { sport: 'F1', percentage: '25%' },
-];
+import { bettingStats, sportDistribution } from '../../../constants';
 
 const BettingStatsCard = () => {
     return (

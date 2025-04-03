@@ -1,39 +1,6 @@
 import React from 'react'
 import FeatureBox from './FeatureBox'
-import { ChartNoAxesCombined, CircuitBoard, CloudLightning, EarthLock, LayoutDashboard, ScanQrCode } from 'lucide-react'
-
-const featuresData = [
-    {
-        icon: <ScanQrCode className='text-secondary' />,
-        header: "AI Bet Slip Scanner",
-        para: "Instantly scan and analyze any bet slip. Our AI extracts odds, stakes, and potential returns with incredible accuracy."
-    },
-    {
-        icon: <LayoutDashboard className='text-secondary' />,
-        header: "Interactive Dashboard",
-        para: "Track your performance with beautiful visualizations. Monitor win rates, ROI, and betting patterns in real-time."
-    },
-    {
-        icon: <ChartNoAxesCombined className='text-secondary' />,
-        header: "Smart Analytics",
-        para: "Get intelligent insights about your betting behavior. Identify winning strategies and optimize your approach."
-    },
-    {
-        icon: <EarthLock className='text-secondary' />,
-        header: "Secure & Private",
-        para: "Your data is encrypted and protected. We prioritize your privacy and security above everything."
-    },
-    {
-        icon: <CircuitBoard className='text-secondary' />,
-        header: "AI-Powered Predictions",
-        para: "Leverage advanced machine learning models to get accurate betting predictions and maximize your chances of winning."
-    },
-    {
-        icon: <CloudLightning className='text-secondary' />,
-        header: "Real-Time Alerts",
-        para: "Stay ahead of the game with instant notifications on odds changes, match updates, and betting opportunities."
-    }
-]
+import { featuresData } from '../../../constants'
 
 const index = () => {
     return (

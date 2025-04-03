@@ -1,12 +1,5 @@
 import React from 'react'
-
-const profitLossByDayData = [
-    { label: "Mon", value: "+£45", height: "h-[60%]", positive: true },
-    { label: "Tue", value: "-£20", height: "h-[30%]", negative: true },
-    { label: "Wed", value: "+£65", height: "h-[80%]", positive: true },
-    { label: "Thu", value: "+£30", height: "h-[40%]", positive: true },
-    { label: "Fri", value: "-£15", height: "h-[20%]", negative: true },
-]
+import { profitLossByDayData } from '../../../constants'
 
 const ProfitLossByDay = () => {
     return (

@@ -1,13 +1,5 @@
 import React from 'react'
-
-const januarySummaryData = [
-    { label: 'Total Profit', value: '£309.15', icon: '📈', positive: true },
-    { label: 'Win Rate', value: '32.0%', icon: '%' },
-    { label: 'Biggest Win', value: '£262.50', icon: '⬆', positive: true },
-    { label: 'Biggest Loss', value: '£49.60', icon: '⬇', negative: true },
-    { label: 'Average Stake', value: '£16.92', icon: '💰' },
-    { label: 'Average Odds', value: '71.11', icon: '%' },
-]
+import { januarySummaryData } from '../../../constants'
 
 const MonthlySummary = () => {
     return (
