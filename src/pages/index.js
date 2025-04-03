@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import FAQ from "@/components/FAQ";
+import CTASection from "@/components/CTASection";
 
 
 export default function Home() {
@@ -17,8 +18,7 @@ export default function Home() {
       <HowItWorks />
       <Features />
       <FAQ />
-      {/* <span className="bg-gradient-to-b from-transparent via-background/20 to-background/90 backdrop-blur-[10px] w-full h-12 fixed bottom-0 left-0" /> */}
-
+      <CTASection />
     </div>
   );
 }
