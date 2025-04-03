@@ -92,4 +92,28 @@ const featuresData = [
     }
 ]
 
-export { stepsData, bettingStats, sportDistribution, dailySummaryData, januarySummaryData, profitLossByDayData, featuresData }
+const faqData = [
+    {
+        question: "How does the AI make betting predictions?",
+        answer: "Our AI analyzes historical data, team performance, player statistics, and real-time odds to generate accurate predictions. It continuously learns and improves based on outcomes."
+    },
+    {
+        question: "Can I scan any bet slip with the AI Bet Slip Scanner?",
+        answer: "Yes! Our AI-powered scanner works with most bet slips, extracting odds, stakes, and potential returns instantly to help you make informed decisions."
+    },
+    {
+        question: "Is my data safe and private?",
+        answer: "Absolutely. We use advanced encryption protocols to protect your data. Your betting history and personal information remain confidential and secure."
+    },
+    {
+        question: "Do I need any technical knowledge to use the app?",
+        answer: "Not at all! Our app is designed for everyone, from beginners to seasoned bettors. The interactive dashboard and smart analytics make it easy to track and improve your bets."
+    },
+    {
+        question: "Does the app guarantee betting success?",
+        answer: "While our AI provides valuable insights and predictions, betting always involves risk. Use our analytics to make smarter decisions, but always bet responsibly."
+    }
+]
+
+
+export { stepsData, bettingStats, sportDistribution, dailySummaryData, januarySummaryData, profitLossByDayData, featuresData, faqData }
