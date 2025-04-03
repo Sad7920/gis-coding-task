@@ -22,7 +22,7 @@
   --btn-primary-focus: #314fb4;
   --btn-primary-ring: rgba(65, 105, 225, 0.5);
   --btn-primary-active: #2c46a3;
-  --btn-primary-disabled: #b0c4ff;
+  --btn-primary-disabled: #bdccfa;
   }
 
 body {
@@ -37,6 +37,16 @@ body {
   background-image: linear-gradient(#202020 1px, transparent 1px), 
                     linear-gradient(90deg, #202020 1px, transparent 1px);
   background-size: 50px 50px;
+}
+
+.steps-bg-dashed {
+  
+  background-image: 
+    linear-gradient(0deg, #e7e5e5 0px, #e7e5e5 1px, transparent 1px, transparent 25px),
+linear-gradient(90deg, #e7e5e5 0px, #e7e5e5 1px, transparent 1px, transparent 25px);
+
+  background-size: 80px 80px;
+  background-repeat: repeat;
 }
 
 .text-gradient {
