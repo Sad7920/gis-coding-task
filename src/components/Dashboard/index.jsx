@@ -15,7 +15,7 @@ const index = () => {
                     <h1 className=' text-4xl font-semibold '>Real-Time Analytics Dashboards</h1>
                 </div>
                 {/* Dashboard */}
-                <div className=" rounded-xl bg-foreground/5 grid md:mx-8 grid-cols-1 lg:grid-cols-3 gap-y-2 md:gap-2 lg:gap-4 p-2 ring-1 ring-inset ring-foreground/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                <div className=" rounded-xl bg-foreground/5 grid md:mx-8 grid-cols-1 lg:grid-cols-3 gap-y-2 lg:gap-2 lg:gap-4 p-2 ring-1 ring-inset ring-foreground/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                     {/* January Summary Box */}
                     <MonthlySummary />
                     {/*  */}
