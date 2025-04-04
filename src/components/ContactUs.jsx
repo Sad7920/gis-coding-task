@@ -80,7 +80,7 @@ const ContactUs = () => {
 
                         {/* Submit Button */}
                         <div className='w-full px-4'>
-                            <Button key={1} text="Submit" className="text-sm h-10 w-full" />
+                            <Button key={1} className="text-sm h-10 w-full" >Submit</Button>
                         </div>
                     </form>
                 </div>
