@@ -3,7 +3,7 @@ import React from 'react'
 const CTASection = () => {
     return (
         <div className='px-4 py-20 w-full'>
-            <div className='max-w-5xl mx-auto w-full px-4 py-8  md:py-16 cta-bg-dashed text-center bg-secondary rounded-4xl'>
+            <div className='max-w-6xl mx-auto w-full px-4 py-8  md:py-16 cta-bg-dashed text-center bg-secondary rounded-4xl'>
                 <div className='w-full max-w-xl mx-auto flex flex-col gap-6'>
                     <h1 className='text-3xl md:text-4xl font-semibold text-background'>Bet Smarter, Win Bigger</h1>
                     <p className='text-sm text-background/60'>Leverage AI-driven insights to make informed bets. Whether you're a casual bettor or a pro, our real-time analytics and predictions give you the edge. Join now and start making smarter decisions!</p>

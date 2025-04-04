@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
+import ContactUs from "@/components/ContactUs";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Features />
       <FAQ />
       <CTASection />
+      <ContactUs />
     </div>
   );
 }
