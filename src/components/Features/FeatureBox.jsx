@@ -5,7 +5,7 @@ import React from 'react'
 const FeatureBox = ({ icon, header, para }) => {
     return (
         <div className='w-full p-6 flex flex-col gap-6 rounded-lg '>
-            <div className='p-4 rounded-full w-fit border border-foreground/8'>
+            <div className='p-4 rounded-full w-fit mx-auto sm:mx-0 border border-foreground/8'>
                 {icon}
             </div>
             <div className='flex flex-col gap-4'>
